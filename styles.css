@@ -1642,3 +1642,56 @@ a {
         height: 40px;
     }
 }
+
+/* --- 420px --- */
+@media (max-width: 420px) {
+  .hero-title { font-size: 2rem; }
+  .hero-badge { font-size: 0.7rem; padding: 6px 12px; }
+  .hero-stat-card { padding: 10px 14px; min-width: 90px; }
+  .stat-num { font-size: 1.3rem; }
+
+  .section { padding: 52px 0; }
+  .section-title { font-size: 1.7rem; margin-bottom: 28px; }
+  .section-label { font-size: 0.72rem; }
+
+  .specs-card { padding: 18px; }
+  .specs-list li { gap: 10px; }
+  .spec-icon { font-size: 1.1rem; }
+
+  .adv-card { padding: 22px 16px; }
+  .adv-icon { font-size: 2rem; }
+
+  .timeline { padding-left: 28px; }
+  .timeline-card { padding: 16px 18px; }
+  .timeline-card h4 { font-size: 0.95rem; }
+  .timeline-card p { font-size: 0.85rem; }
+
+  .body-part summary { font-size: 0.88rem; padding: 13px 14px; }
+  .part-content p { font-size: 0.88rem; }
+
+  .char-traits { padding: 18px; gap: 14px; }
+  .trait-label { min-width: 105px; font-size: 0.78rem; }
+  .trait-val { font-size: 0.78rem; }
+
+  .tab-btn { font-size: 0.75rem; padding: 7px 11px; }
+  .care-text-only { padding: 20px 18px; }
+  .care-text-only h3 { font-size: 1.05rem; }
+  .care-list li { font-size: 0.88rem; }
+
+  .breed-card { padding: 20px 16px; }
+  .breed-card h4 { font-size: 0.95rem; }
+  .breed-note { padding: 16px 18px; }
+  .breed-note p { font-size: 0.85rem; }
+
+  .gallery-item { height: 170px; }
+  .gallery-caption { font-size: 0.78rem; }
+
+  .faq-question { font-size: 0.85rem; padding: 16px 18px; }
+  .faq-answer p { font-size: 0.88rem; }
+
+  .cta-section { padding: 52px 5vw; }
+  .cta-text h2 { font-size: 1.5rem; }
+  .cta-text p { font-size: 0.9rem; }
+
+  .scroll-top { width: 36px; height: 36px; font-size: 1rem; bottom: 12px; right: 12px; }
+}
